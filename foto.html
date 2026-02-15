@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yanarım 💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>İşte Dünyanın En Güzel Karesi ✨</h1>
+
+<img src="foto.JPG" class="photo">
+
+<button onclick="muzikCal()" class="btn">
+Müziği Başlat 🎵
+</button>
+
+</div>
+
+<audio id="muzik" loop>
+<source src="muzik.mp3" type="audio/mp3">
+</audio>
+
+<script>
+function muzikCal() {
+  document.getElementById("muzik").play();
+}
+</script>
+
+</body>
+</html>
